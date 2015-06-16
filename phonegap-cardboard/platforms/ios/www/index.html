@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Cardboard Example</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				margin: 0px;
+				overflow: hidden;
+			}
+			#canvas {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+			}
+		</style>
+	</head>
+	<body>
+
+	<div id="canvas"></div>
+
+	<script src="js/third-party/three.js/three.js"></script>
+	<script src="js/ImprovedNoise.js"></script>
+	<script src="js/third-party/three.js/StereoEffect.js"></script>
+	<script src="js/third-party/three.js/DeviceOrientationControls.js"></script>
+	<script src="js/third-party/three.js/OrbitControls.js"></script>
+	<script src="js/third-party/three.js/FirstPersonControls.js"></script>
+	<script src="js/third-party/three.js/DDSLoader.js"></script>
+	<script src="js/third-party/three.js/OBJLoader.js"></script>
+	<script src="js/third-party/three.js/MTLLoader.js"></script>
+	<script src="js/third-party/three.js/OBJMTLLoader.js"></script>
+
+	<!--
+	uncomment on mobile device
+	<script src="cordova.js"></script>
+	-->
+	
+	<script data-main="js/config" src="js/third-party/require.js"></script>
+
+	</body>
+</html>

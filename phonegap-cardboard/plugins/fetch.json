@@ -1,0 +1,19 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "de.codevise.cordova.volume": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/g-w/cordova-volume",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
